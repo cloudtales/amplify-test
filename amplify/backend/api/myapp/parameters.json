@@ -1,0 +1,9 @@
+{
+    "AppSyncApiName": "myapp",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito05bff508",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
