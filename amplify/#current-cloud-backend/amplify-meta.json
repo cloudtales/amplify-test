@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "myapp-20191111140758-authRole",
+			"UnauthRoleArn": "arn:aws:iam::617515628304:role/myapp-20191111140758-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::617515628304:role/myapp-20191111140758-authRole",
+			"Region": "eu-central-1",
+			"DeploymentBucketName": "myapp-20191111140758-deployment",
+			"UnauthRoleName": "myapp-20191111140758-unauthRole",
+			"StackName": "myapp-20191111140758",
+			"StackId": "arn:aws:cloudformation:eu-central-1:617515628304:stack/myapp-20191111140758/48695c00-0484-11ea-8966-02961de43c48"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/myapp-20191111140758-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-11-11T13:28:00.471Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d14ohpqqqabt34.cloudfront.net",
+				"S3BucketSecureURL": "https://myapp-20191111141246-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://myapp-20191111141246-hostingbucket.s3-website.eu-central-1.amazonaws.com",
+				"CloudFrontDistributionID": "E3KSRAEUJBUYOH",
+				"Region": "eu-central-1",
+				"HostingBucketName": "myapp-20191111141246-hostingbucket",
+				"CloudFrontDomainName": "d14ohpqqqabt34.cloudfront.net"
+			},
+			"lastPushDirHash": "wBy7uqLqNa3guOFrrrdek5hCXDc="
+		}
+	}
+}
