@@ -19,7 +19,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/myapp-20191111140758-deployment/amplify-cfn-templates/hosting/template.json",
                 "logicalId": "hostingS3AndCloudFront"
             },
-            "lastPushTimeStamp": "2019-11-13T13:34:00.034Z",
+            "lastPushTimeStamp": "2019-11-13T13:49:06.820Z",
             "output": {
                 "CloudFrontSecureURL": "https://d14ohpqqqabt34.cloudfront.net",
                 "S3BucketSecureURL": "https://myapp-20191111141246-hostingbucket.s3.amazonaws.com",
@@ -29,7 +29,14 @@
                 "HostingBucketName": "myapp-20191111141246-hostingbucket",
                 "CloudFrontDomainName": "d14ohpqqqabt34.cloudfront.net"
             },
-            "lastPushDirHash": "wBy7uqLqNa3guOFrrrdek5hCXDc="
+            "lastPushDirHash": "EOdh9uXtbnDcVAR8Rh+Lm4A8do4="
+        }
+    },
+    "auth": {
+        "cognito12eb3edb": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "lastPushTimeStamp": "2019-11-13T13:57:16.260Z"
         }
     }
 }
