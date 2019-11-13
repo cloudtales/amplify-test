@@ -1,5 +1,5 @@
 {
-    "providers": {
+    "dev": {
         "awscloudformation": {
             "AuthRoleName": "amplify-amplify-vue-dev-161313-authRole",
             "UnauthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-dev-161313-unauthRole",
@@ -9,6 +9,11 @@
             "UnauthRoleName": "amplify-amplify-vue-dev-161313-unauthRole",
             "StackName": "amplify-amplify-vue-dev-161313",
             "StackId": "arn:aws:cloudformation:eu-central-1:617515628304:stack/amplify-amplify-vue-dev-161313/1cd6f750-0628-11ea-8f73-06d8eb101a58"
+        },
+        "categories": {
+            "auth": {
+                "amplifyvuea78c822e": {}
+            }
         }
     }
 }
