@@ -125,12 +125,6 @@
             ],
             "Properties": {
                 "DistributionConfig": {
-                    "Aliases": ["cloudtales.org","www.cloudtales.org"],
-                    "ViewerCertificate" : {
-                        "AcmCertificateArn" : "arn:aws:acm:us-east-1:617515628304:certificate/d5d4d622-da95-48a1-ba7c-41c4a512e8a2",
-                        "MinimumProtocolVersion" : "TLSv1.1_2016",
-                        "SslSupportMethod" : "sni-only"
-                    },
                     "Origins": [
                         {
                             "DomainName": {
