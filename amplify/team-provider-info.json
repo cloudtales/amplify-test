@@ -15,5 +15,22 @@
                 "amplifyvuea78c822e": {}
             }
         }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-vue-prod-112245-authRole",
+            "UnauthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-prod-112245-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-prod-112245-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-amplify-vue-prod-112245-deployment",
+            "UnauthRoleName": "amplify-amplify-vue-prod-112245-unauthRole",
+            "StackName": "amplify-amplify-vue-prod-112245",
+            "StackId": "arn:aws:cloudformation:eu-central-1:617515628304:stack/amplify-amplify-vue-prod-112245/5cf28c00-09ed-11ea-abd4-060cd1f69c1a"
+        },
+        "categories": {
+            "auth": {
+                "amplifyvuea78c822e": {}
+            }
+        }
     }
 }

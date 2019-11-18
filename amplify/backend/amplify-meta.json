@@ -1,27 +1,61 @@
 {
-	"providers": {
-		"awscloudformation": {
-			"AuthRoleName": "amplify-amplify-vue-dev-161313-authRole",
-			"UnauthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-dev-161313-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-dev-161313-authRole",
-			"Region": "eu-central-1",
-			"DeploymentBucketName": "amplify-amplify-vue-dev-161313-deployment",
-			"UnauthRoleName": "amplify-amplify-vue-dev-161313-unauthRole",
-			"StackName": "amplify-amplify-vue-dev-161313",
-			"StackId": "arn:aws:cloudformation:eu-central-1:617515628304:stack/amplify-amplify-vue-dev-161313/1cd6f750-0628-11ea-8f73-06d8eb101a58"
-		}
-	},
-	"auth": {
-		"amplifyvuea78c822e": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
-		}
-	},
-	"hosting": {
-		"S3AndCloudFront": {
-			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation"
-		}
-	}
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-vue-dev-161313-authRole",
+            "UnauthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-dev-161313-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::617515628304:role/amplify-amplify-vue-dev-161313-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-amplify-vue-dev-161313-deployment",
+            "UnauthRoleName": "amplify-amplify-vue-dev-161313-unauthRole",
+            "StackName": "amplify-amplify-vue-dev-161313",
+            "StackId": "arn:aws:cloudformation:eu-central-1:617515628304:stack/amplify-amplify-vue-dev-161313/1cd6f750-0628-11ea-8f73-06d8eb101a58"
+        },
+        "categories": {
+            "auth": {
+                "amplifyvuea78c822e": {}
+            }
+        }
+    },
+    "auth": {
+        "amplifyvuea78c822e": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "output": {
+                "AppClientSecret": "3i7bbc0nr3k5h1efkomsold85cbcn5i0gkgsqp3gfbr2gabnsut",
+                "UserPoolId": "eu-central-1_hEluSwdBW",
+                "AppClientIDWeb": "7h2fo7htg9elu8ff2ige97uukm",
+                "AppClientID": "1ti1827hlaod54ma48n4nnm86k",
+                "IdentityPoolId": "eu-central-1:60f54ef7-b5c9-490f-ba27-eec3f6cd6d9b",
+                "IdentityPoolName": "amplifyvuea78c822e_identitypool_a78c822e__dev",
+                "UserPoolName": "amplifyvuea78c822e_userpool_a78c822e"
+            },
+            "lastPushTimeStamp": "2019-11-18T10:23:43.955Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify-vue-dev-161313-deployment/amplify-cfn-templates/auth/amplifyvuea78c822e-cloudformation-template.yml",
+                "logicalId": "authamplifyvuea78c822e"
+            }
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "CloudFrontSecureURL": "https://d2z20isaa7lp01.cloudfront.net",
+                "S3BucketSecureURL": "https://amplify-vue-20191113161417-hostingbucket-dev.s3.amazonaws.com",
+                "CloudFrontOriginAccessIdentity": "E23IX1JI1BXVAD",
+                "WebsiteURL": "http://amplify-vue-20191113161417-hostingbucket-dev.s3-website.eu-central-1.amazonaws.com",
+                "CloudFrontDistributionID": "E1CQ62AW5BMPMB",
+                "Region": "eu-central-1",
+                "HostingBucketName": "amplify-vue-20191113161417-hostingbucket-dev",
+                "CloudFrontDomainName": "d2z20isaa7lp01.cloudfront.net"
+            },
+            "lastPushTimeStamp": "2019-11-18T10:23:43.956Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify-vue-dev-161313-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            }
+        }
+    }
 }

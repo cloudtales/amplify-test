@@ -2,9 +2,14 @@
 
 const awsmobile = {
     "aws_project_region": "eu-central-1",
-    "aws_content_delivery_bucket": "myapp-20191111141246-hostingbucket",
+    "aws_cognito_identity_pool_id": "eu-central-1:60f54ef7-b5c9-490f-ba27-eec3f6cd6d9b",
+    "aws_cognito_region": "eu-central-1",
+    "aws_user_pools_id": "eu-central-1_hEluSwdBW",
+    "aws_user_pools_web_client_id": "7h2fo7htg9elu8ff2ige97uukm",
+    "oauth": {},
+    "aws_content_delivery_bucket": "amplify-vue-20191113161417-hostingbucket-dev",
     "aws_content_delivery_bucket_region": "eu-central-1",
-    "aws_content_delivery_url": "https://d14ohpqqqabt34.cloudfront.net"
+    "aws_content_delivery_url": "https://d2z20isaa7lp01.cloudfront.net"
 };
 
 

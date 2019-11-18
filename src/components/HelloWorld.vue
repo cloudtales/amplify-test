@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <amplify-authenticator v-bind:authConfig="authConfig"></amplify-authenticator>
   </div>
 </template>
 
