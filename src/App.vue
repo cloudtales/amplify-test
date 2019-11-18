@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Amplify & CDN Test"/>
+    <amplify-authenticator v-bind:authConfig="authConfig"></amplify-authenticator>
   </div>
 </template>
 
